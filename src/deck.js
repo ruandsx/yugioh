@@ -5,7 +5,7 @@ module.exports = class Deck {
     this.cards = this.buildDeck();
   }
   buildDeck(){
-    const json = require('./cartas.json');
+    const json = require('../cartas.json');
     
     var cards = {};
 

@@ -5,3 +5,7 @@ node_modules
 *.html
 
 package-lock.json
+
+package.json
+
+yarn.lock

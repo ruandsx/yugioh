@@ -32,7 +32,7 @@ module.exports = class Board {
       if(this.board[i]==""){
         process.stdout.write("   | VAZIO |   ")
       }else{
-        process.stdout.write("   | " + this.board[i].stars + " |   ")
+        process.stdout.write("   | " + this.board[i] + " |   ")
       }
     }
     console.log("\nHP p2: "+this.p2.life)
